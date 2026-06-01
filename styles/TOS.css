@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.Content {
+    opacity: 0;
+    animation: fadeIn 1s ease-in-out forwards;
+
+    margin: 1cm 2cm;
+    padding: 5px;
+    background-color: rgb(124, 77, 77);
+    border-radius: 0 50px 0px 50px;
+}
+
+.Content:nth-of-type(1) {
+    animation-delay: 0s;
+}
+
+.Content:nth-of-type(2) {
+    animation-delay: 0.2s;
+}
+
+.Content:nth-of-type(3) {
+    animation-delay: 0.5s;
+}
+
+ @keyframes fadeIn {
+    to {
+    opacity: 1;
+    }
+}
+
+.Content #TOStitle {
+    text-align: center;
+    margin: 0;
+}
+
+h1 {
+    padding: 10px;
+    margin-left: 1cm;
+    text-decoration: underline;
+    color: white;
+}
+
+h2 {
+    font-size: 35pt;
+    padding: 10px;
+    margin-left: 1cm;
+    text-decoration: underline;
+    font-family: "SansPro";
+    color: white;
+}
+
+
+p {
+    font-size: 25pt;
+    font-family: "SansPro";
+    margin: 1cm;
+    color: white;
+}
+
+ul li {
+    list-style-type: none;
+    font-size: 30pt;
+    font-family: "SansPro";
+    padding: 5px;
+    margin: 0 1cm;
+    color: white;
+}

@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.Content {
+    opacity: 0;
+    animation: fadeIn 1s ease-in-out forwards;
+    margin: 1cm 2cm;
+    padding: 5px;
+    background-color: rgb(124, 77, 77);
+    border-radius: 0 50px 0px 50px;
+    font-family: "SansPro";
+}
+
+@keyframes fadeIn {
+    to {
+    opacity: 1;
+    }
+}
+
+.Content #PaymentTitle {
+    text-align: center;
+}
+
+h1 {
+    padding: 10px;
+    margin-left: 1cm;
+    text-decoration: underline;
+    color: white;
+}
+
+p {
+    font-size: 25pt;
+    font-family: "SansPro";
+    margin: 1cm;
+    color: white;
+}
+
+p a {
+    color: rgb(52, 133, 204);
+}
+
+h2 {
+    font-size: 35pt;
+    padding: 10px;
+    margin-left: 1cm;
+    text-decoration: underline;
+    font-family: "SansPro";
+    color: white;
+}
+
+table {
+    margin: 1cm auto;
+    width: 50%;
+    color: white;
+}
+
+
+
+table th {
+    border-bottom: solid 2px white;
+    font-size: 30pt;
+    background-color: rgb(175, 58, 29);
+}
+
+table td {
+    font-size: 20pt;
+    padding-left: 5px;
+    padding-bottom: 0.5cm;
+    padding-top: 0.5cm;
+    border-bottom: solid 2px white;
+}
+
+table tr td:hover {
+    background-color: rgba(124, 77, 77, 0.425);
+}

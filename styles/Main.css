@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: "SansPro";
+    src: url(../res/SourceSansPro-Regular.ttf);
+}
+
+body {
+    background-image: url(../res/stained-glass.jpg);
+}
+
+#MainPage {
+    opacity: 0;
+    animation: fadeIn 1s ease-in-out forwards;
+    margin: 3% auto;
+    width: 50%;
+    background-color: rgb(124, 77, 77);
+    text-align: center;
+    padding: 1cm 2cm;
+    border-radius: 15px;
+}
+
+ @keyframes fadeIn {
+    to {
+    opacity: 1;
+    }
+}
+
+#Pfp {
+    border-radius: 50%;
+    width: 8cm;
+    height: 8cm;
+    margin-top: 3rem;
+    margin-bottom: 1rem ;
+    border: solid black 5px;
+}
+
+h1 {
+    font-size: 50pt;
+    margin-bottom: 2rem;
+    font-family: "SansPro";
+    color: white;
+}
+
+#Buttons li{
+    list-style-type: none;
+    margin-bottom: 2cm;
+}
+
+.MainButtons {
+    font-family: "SansPro";
+    text-align: center;
+    padding: 10px 3cm;  
+    text-decoration: none;
+    color: aliceblue;
+    border: solid white 4px;
+    border-radius: 15px;
+    font-size: 30pt;
+    transition: background-color 0.5s ease;
+}
+
+.MainButtons:hover {
+    background-color: rgba(240, 248, 255, 0.205);
+}
+
+.icons {
+    font-size: 30pt;
+    color: rgb(52, 133, 204);
+    padding: 10px;
+}
+
+footer {
+    background-color: rgb(38, 58, 77);
+    text-align: center;
+    height: 2.5cm;
+}
