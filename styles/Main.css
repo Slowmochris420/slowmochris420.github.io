@@ -77,3 +77,56 @@ footer {
     text-align: center;
     height: 2.5cm;
 }
+
+/* ── Tablet ── */
+@media (max-width: 768px) {
+    #MainPage {
+        width: 80%;
+        padding: 1cm 1cm;
+    }
+
+    #Pfp {
+        width: 6cm;
+        height: 6cm;
+    }
+
+    h1 {
+        font-size: 36pt;
+    }
+
+    .MainButtons {
+        font-size: 22pt;
+        padding: 10px 1.5cm;
+    }
+}
+
+/* ── Mobile ── */
+@media (max-width: 480px) {
+    #MainPage {
+        width: 92%;
+        margin: 5% auto;
+        padding: 0.8cm 0.6cm;
+        border-radius: 10px;
+    }
+
+    #Pfp {
+        width: 4.5cm;
+        height: 4.5cm;
+        margin-top: 1.5rem;
+    }
+
+    h1 {
+        font-size: 26pt;
+        margin-bottom: 1.2rem;
+    }
+
+    #Buttons li {
+        margin-bottom: 1cm;
+    }
+
+    .MainButtons {
+        font-size: 17pt;
+        padding: 10px 1cm;
+        display: block;
+    }
+}

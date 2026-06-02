@@ -75,3 +75,74 @@ table td {
 table tr td:hover {
     background-color: rgba(124, 77, 77, 0.425);
 }
+
+/* ── Tablet ── */
+@media (max-width: 768px) {
+    .Content {
+        margin: 0.5cm 1cm;
+    }
+
+    h1 {
+        font-size: 28pt;
+    }
+
+    h2 {
+        font-size: 24pt;
+    }
+
+    p {
+        font-size: 18pt;
+        margin: 0.5cm;
+    }
+
+    table {
+        width: 80%;
+    }
+
+    table th {
+        font-size: 22pt;
+    }
+
+    table td {
+        font-size: 16pt;
+    }
+}
+
+/* ── Mobile ── */
+@media (max-width: 480px) {
+    .Content {
+        margin: 0.4cm 0.5cm;
+        border-radius: 0 25px 0 25px;
+    }
+
+    h1 {
+        font-size: 22pt;
+        margin-left: 0.3cm;
+    }
+
+    h2 {
+        font-size: 18pt;
+        margin-left: 0.3cm;
+    }
+
+    p {
+        font-size: 14pt;
+        margin: 0.4cm 0.5cm;
+    }
+
+    table {
+        width: 95%;
+        margin: 0.5cm auto;
+    }
+
+    table th {
+        font-size: 16pt;
+    }
+
+    table td {
+        font-size: 13pt;
+        padding-left: 4px;
+        padding-bottom: 0.3cm;
+        padding-top: 0.3cm;
+    }
+}

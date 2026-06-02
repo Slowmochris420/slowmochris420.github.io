@@ -68,3 +68,57 @@ ul li {
     margin: 0 1cm;
     color: white;
 }
+
+/* ── Tablet ── */
+@media (max-width: 768px) {
+    .Content {
+        margin: 0.5cm 1cm;
+    }
+
+    h1 {
+        font-size: 28pt;
+    }
+
+    h2 {
+        font-size: 24pt;
+    }
+
+    p {
+        font-size: 18pt;
+        margin: 0.5cm;
+    }
+
+    ul li {
+        font-size: 20pt;
+        margin: 0 0.5cm;
+    }
+}
+
+/* ── Mobile ── */
+@media (max-width: 480px) {
+    .Content {
+        margin: 0.4cm 0.5cm;
+        border-radius: 0 25px 0 25px;
+    }
+
+    h1 {
+        font-size: 20pt;
+        margin-left: 0.3cm;
+    }
+
+    h2 {
+        font-size: 16pt;
+        margin-left: 0.3cm;
+    }
+
+    p {
+        font-size: 13pt;
+        margin: 0.4cm 0.5cm;
+    }
+
+    ul li {
+        font-size: 15pt;
+        margin: 0 0.4cm;
+        padding: 3px;
+    }
+}
